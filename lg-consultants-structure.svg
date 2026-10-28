@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="520" fill="#ffffff"/>
+  <text x="550" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Consultant Repository Access: Structure</text>
+
+  <!-- Enterprise -->
+  <rect x="230" y="60" width="850" height="440" rx="14" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="250" y="88" font-size="16" font-weight="700" fill="#334155">Lionsgate GitHub Enterprise</text>
+
+  <!-- lg-consultants org -->
+  <rect x="255" y="105" width="420" height="375" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="275" y="132" font-size="16" font-weight="700" fill="#1e40af">lg-consultants org</text>
+  <text x="275" y="152" font-size="13" fill="#1e40af">Base permission: No access</text>
+
+  <rect x="280" y="180" width="160" height="70" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="360" y="210" text-anchor="middle" font-size="14" font-weight="600" fill="#1e3a8a">Team: Project A</text>
+  <text x="360" y="230" text-anchor="middle" font-size="12" fill="#1e3a8a">(secret)</text>
+  <rect x="490" y="180" width="160" height="70" rx="8" fill="#ffffff" stroke="#2563eb"/>
+  <text x="570" y="210" text-anchor="middle" font-size="14" font-weight="600" fill="#1e3a8a">Repo: Project A</text>
+  <text x="570" y="230" text-anchor="middle" font-size="12" fill="#1e3a8a">(private)</text>
+  <line x1="440" y1="215" x2="486" y2="215" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="280" y="330" width="160" height="70" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="360" y="360" text-anchor="middle" font-size="14" font-weight="600" fill="#1e3a8a">Team: Project B</text>
+  <text x="360" y="380" text-anchor="middle" font-size="12" fill="#1e3a8a">(secret)</text>
+  <rect x="490" y="330" width="160" height="70" rx="8" fill="#ffffff" stroke="#2563eb"/>
+  <text x="570" y="360" text-anchor="middle" font-size="14" font-weight="600" fill="#1e3a8a">Repo: Project B</text>
+  <text x="570" y="380" text-anchor="middle" font-size="12" fill="#1e3a8a">(private)</text>
+  <line x1="440" y1="365" x2="486" y2="365" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <text x="465" y="455" text-anchor="middle" font-size="12" font-style="italic" fill="#475569">Projects cannot see each other</text>
+
+  <!-- Existing orgs -->
+  <rect x="760" y="105" width="300" height="375" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="780" y="132" font-size="16" font-weight="700" fill="#166534">lgent-data <tspan font-weight="400" font-size="13">(existing org)</tspan></text>
+  <text x="780" y="152" font-size="13" fill="#166534">Permissions unchanged</text>
+  <rect x="790" y="180" width="240" height="70" rx="8" fill="#ffffff" stroke="#16a34a"/>
+  <text x="910" y="220" text-anchor="middle" font-size="14" font-weight="600" fill="#14532d">Internal repos</text>
+  <rect x="790" y="300" width="240" height="90" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="910" y="335" text-anchor="middle" font-size="14" font-weight="600" fill="#14532d">Permanent home for</text>
+  <text x="910" y="355" text-anchor="middle" font-size="14" font-weight="600" fill="#14532d">delivered projects</text>
+
+  <!-- transfers -->
+  <path d="M650,215 C720,215 720,330 786,335" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arr)"/>
+  <path d="M650,365 C720,365 720,355 786,355" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arr)"/>
+  <text x="718" y="420" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">transfer on</text>
+  <text x="718" y="435" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">completion</text>
+
+  <!-- consultants -->
+  <rect x="20" y="185" width="170" height="60" rx="30" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="105" y="212" text-anchor="middle" font-size="14" font-weight="600" fill="#9a3412">Consultants</text>
+  <text x="105" y="230" text-anchor="middle" font-size="12" fill="#9a3412">Project A</text>
+  <line x1="190" y1="215" x2="276" y2="215" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="20" y="335" width="170" height="60" rx="30" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="105" y="362" text-anchor="middle" font-size="14" font-weight="600" fill="#9a3412">Consultants</text>
+  <text x="105" y="380" text-anchor="middle" font-size="12" fill="#9a3412">Project B</text>
+  <line x1="190" y1="365" x2="276" y2="365" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+</svg>
